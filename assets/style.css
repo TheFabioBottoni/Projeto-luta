@@ -1,0 +1,32 @@
+#fightarea{
+    display: flex;
+    border: 2px solid rgb(90, 85, 85);
+    justify-content: space-between;
+}
+
+.lifebar{
+    border: 1px solid black;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.lifebar .bar{
+    height: inherit; /* vai herdar a altura do pai(lifebar) */
+
+    background-color: red;
+    border-radius: 5px;
+}
+
+button{
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+
+}
+
+.log{
+    border: 2px dotted rgb(143, 140, 139);
+    height: 200px;
+    overflow-y: scroll ; /* colocar barra de rolagem na vertical */
+}
